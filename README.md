@@ -2,13 +2,13 @@
 
 一点小羊毛
 
-通过 github action 来实现自动签到（每天签到可以多一天）
+通过 github action 来实现自动签到（每天签到可以延时一天）
 
 步骤：
 
 1. 获取 cookie
 
-   在 GLaDOS 的网页上按 F12 查看请求的 cookie。
+   在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，进行请求，查看请求的 cookie。
 
 2. 设置 cookie
 
