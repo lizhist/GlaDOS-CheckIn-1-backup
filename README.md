@@ -20,7 +20,7 @@
 
 ### 3 设置 cookie
 
-在 fork 后**自己的**仓库中依次点击 `Settings` - `Secrets` - `New repository secret`，如下图所示
+在 fork 后**自己的**仓库中依次点击 `Settings` - `Secrets` - `New repository secret`，如下图所示：
 
 ![image-20210111220035535](README.assets/image-20210111220035535.png)
 
