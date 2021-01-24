@@ -8,27 +8,35 @@
 
 如果还没有注册的话，可以去[这里](https://glados.rocks/register)注册，然后填写邀请码：`0HCLD-0XA70-YBI10-Z6836`。双方都可以获得奖励天数哦。
 
-步骤：
+## 步骤
 
-1. 获取 cookie
+### 1 fork 这个仓库
 
-   在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，进行请求，查看请求的 cookie。
+点击右上角的 fork。
 
-2. 设置 cookie
+### 2 获取 cookie
 
-   先 fork 这个仓库，在仓库中依次点击 `Settings` - `Secrets` - `New repository secret`，如下图所示
+在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，进行请求，查看请求的 cookie。
 
-   ![image-20210111220035535](README.assets/image-20210111220035535.png)
+### 3 设置 cookie
 
-   然后添加一个名为 `COOKIE` 的变量，内容为获取到的 cookie。
+在 fork 后**自己的**仓库中依次点击 `Settings` - `Secrets` - `New repository secret`，如下图所示
 
-   `COOKIE` 示例：
+![image-20210111220035535](README.assets/image-20210111220035535.png)
 
-   ```text
-   __cfduid=d526a2a21******c5521611332007; _ga=GA1.2.101***3158.1611332010; _gid=GA1.2.11***23.1611332010; koa:sess=eyJ1c2VyS******fZXhwaXJlIjoxNjM3MjU0NjEzMTEyLCJfbWF4QWd****yMDAwMDAwMH0=; koa:sess.sig=m6KAoBnv1s***DldbtvNw1v8; _gat_gtag_UA_10***600_2=1
-   ```
+然后添加一个名为 `COOKIE` 的变量，内容为获取到的 cookie。
 
-3. 随便发起一个 push 请求，可以修改一下 `README.md`，或者自己给自己点个 star，就可以开始。之后就会每小时进行一次签到（因为有时候签到会失败，好像是服务器不太好，就设置一下每小时签到一次保证成功吧）。
+`COOKIE` 示例：
+
+```text
+__cfduid=d526a2a21******c5521611332007; _ga=GA1.2.101***3158.1611332010; _gid=GA1.2.11***23.1611332010; koa:sess=eyJ1c2VyS******fZXhwaXJlIjoxNjM3MjU0NjEzMTEyLCJfbWF4QWd****yMDAwMDAwMH0=; koa:sess.sig=m6KAoBnv1s***DldbtvNw1v8; _gat_gtag_UA_10***600_2=1
+```
+
+### 4 运行 
+
+随便发起一个 push 请求，可以修改一下 `README.md`，或者自己给自己点个 star，就可以开始。之后就会每小时进行一次签到（因为有时候签到会失败，好像是服务器不太好，就设置一下每小时签到一次保证成功吧）。
+
+
 
 注意：在官方文档中有这么一段：
 
