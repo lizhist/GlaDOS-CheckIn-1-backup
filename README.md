@@ -4,6 +4,8 @@
 
 通过 github action 来实现自动签到（每天签到可以延时一天）
 
+[GLaDOS 官方 github](https://github.com/glados-network/GLaDOS)，[GLaDOS 官网](https://glados.rocks/)。
+
 步骤：
 
 1. 获取 cookie
