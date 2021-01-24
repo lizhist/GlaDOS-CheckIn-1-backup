@@ -1,10 +1,12 @@
 # GLaDOS-checkin
 
-一点小羊毛
+一点小羊毛。
 
-通过 github action 来实现自动签到（每天签到可以延时一天）
+通过 github action 来实现自动签到（每天签到可以延时一天）。
 
 [GLaDOS 官方 github](https://github.com/glados-network/GLaDOS)，[GLaDOS 官网](https://glados.rocks/)。
+
+如果还没有注册的话，可以去[这里](https://github.com/glados-network/GLaDOS)注册，然后填写邀请码：`0HCLD-0XA70-YBI10-Z6836`。双方都可以获得奖励天数哦。
 
 步骤：
 
@@ -28,7 +30,7 @@
 
 3. 随便发起一个 push 请求，可以修改一下 `README.md`，或者自己给自己点个 star，就可以开始。之后就会每小时进行一次签到（因为有时候签到会失败，好像是服务器不太好，就设置一下每小时签到一次保证成功吧）。
 
-注意：在官方文档中有这么一段
+注意：在官方文档中有这么一段：
 
 > To prevent unnecessary workflow runs, scheduled workflows may be disabled automatically. When a public repository is forked, scheduled workflows are disabled by default. In a public repository, scheduled workflows are automatically disabled when no repository activity has occurred in 60 days.
 
