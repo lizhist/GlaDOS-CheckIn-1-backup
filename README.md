@@ -2,7 +2,7 @@
 
 一点小羊毛。**好哥哥们顺手点个 star 吧。**
 
-通过 github action 来实现自动签到（每天签到可以延时一天）。
+通过 github action 来实现自动签到（每天签到可以延时一天，相当于永久吧）。
 
 [GLaDOS 官方 github](https://github.com/glados-network/GLaDOS)，[GLaDOS 官网](https://glados.rocks/)。
 
