@@ -3,7 +3,6 @@ name: GLaDOS-checkin
 on:
   push:
   pull_request:
-  fork:
   watch:
     types: [ started ]
   schedule:
