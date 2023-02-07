@@ -3,5 +3,5 @@ curl -H "cookie:${COOKIE}" -H 'content-type:application/json;charset=UTF-8' -d '
 echo '-----------------status-----------------'
 leftDays=`curl -H "cookie:${COOKIE}" -X GET 'https://glados.rocks/api/user/status' | grep -Eo '"leftDays":"[^"]*"' |awk -F '"' '{print $4}' | awk -F '.' '{print $1}'`
 echo '-----------------Notify-----------------'
-echo $COOKIE, $leftDays, $SCKEY
-curl https://sctapi.ftqq.com/${SCKEY}.send?title=leftDays:${leftDays}
+key=`"${SCKEY}"`
+curl https://sctapi.ftqq.com/${key}.send?title=leftDays:${leftDays}
