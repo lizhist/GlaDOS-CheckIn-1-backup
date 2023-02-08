@@ -6,7 +6,7 @@ on:
   watch:
     types: [ started ]
   schedule:
-    - cron: "40 9,11 * * *"
+    - cron: "50 11,14 * * *"
 
 jobs:
   GLaDOS-checkin:
