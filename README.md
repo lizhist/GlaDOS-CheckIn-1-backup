@@ -47,6 +47,11 @@ __cfduid=d526a2a21******c5521611332007; _ga=GA1.2.101***3158.1611332010; _gid=GA
 
 也就是说，**定时执行的任务需要每隔 60 天激活一次**。
 
-可参考
+
+**可参考**
+
 https://web.archive.org/web/20230309141334/http%3A%2F%2Fwww.key1024.cn%2F2023%2F02%2F08%2FGithub-actions%25E8%2587%25AA%25E5%258A%25A8%25E7%25AD%25BE%25E5%2588%25B0GLaDOS%25E5%25A4%25A9%25E6%2595%25B0%25E5%25B9%25B6%25E9%2580%259A%25E7%259F%25A5%2F
+
 https://github.com/ChenAi140/GLaDOS-CheckIn
+
+import的仓库，菜单栏可能无actions，找以前的设置一下应该可以
