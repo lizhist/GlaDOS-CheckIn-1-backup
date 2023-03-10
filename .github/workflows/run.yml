@@ -6,7 +6,8 @@ on:
   watch:
     types: [ started ]
   schedule:
-    - cron: "33 */12 * * *"
+    - cron: "5,35 16 * * *"
+   #UTC时间比北京时间慢8个小时。上面的时间是每天北京时间零点5分和35分，执行一次任务
 
 jobs:
   GLaDOS-checkin:
