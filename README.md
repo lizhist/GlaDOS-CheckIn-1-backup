@@ -21,6 +21,8 @@
 
 在 [GLaDOS](https://glados.rocks/console/checkin) 的网页上按 F12，进行请求，查看请求的 cookie。
 
+![edge cookie](https://archive.org/download/cookie_202303/%E8%8E%B7%E5%8F%96cookie.png)
+
 ### 3 设置 cookie
 
 在 fork 后**自己的**仓库中依次点击 `Settings` - `Secrets` - `New repository secret`，如下图所示：
@@ -45,3 +47,6 @@ __cfduid=d526a2a21******c5521611332007; _ga=GA1.2.101***3158.1611332010; _gid=GA
 
 也就是说，**定时执行的任务需要每隔 60 天激活一次**。
 
+可参考
+https://web.archive.org/web/20230309141334/http%3A%2F%2Fwww.key1024.cn%2F2023%2F02%2F08%2FGithub-actions%25E8%2587%25AA%25E5%258A%25A8%25E7%25AD%25BE%25E5%2588%25B0GLaDOS%25E5%25A4%25A9%25E6%2595%25B0%25E5%25B9%25B6%25E9%2580%259A%25E7%259F%25A5%2F
+https://github.com/ChenAi140/GLaDOS-CheckIn
